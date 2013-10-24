@@ -1,0 +1,95 @@
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  position: absolute; 
+  overflow: hidden; 
+  top: 0; 
+  right: 0; 
+  bottom: 0;  
+  left: 0;  
+}
+
+.test, .old{
+   position:absolute;
+   left: 100px;
+   top: 100px;
+   width: 100px;
+   height: 50px;
+   background: #20A7DF;
+   box-shadow: 0 0 0 1px rgba(0,0,0,.7) inset;
+}
+
+.test{
+  opacity:.5;
+  background: url(pony.jpg);
+  background-size: cover;
+  /*transition: .2s all;*/
+}
+
+.grid{
+  width: 100px;
+  height: 100px;
+  box-shadow: -1px -1px 0 rgba(0,0,0,.3) inset;
+  float: left;
+}
+
+.marker{
+  width:              10px;
+  height:             10px;
+  position:           absolute;
+  border-radius:      10px;
+  opacity:  .8;
+}
+
+.marker--tl{ 
+  background: red;
+  margin-left: -5px;
+  margin-top: -5px;
+ }
+
+.marker--tr{ 
+  background: green;
+  margin-right: -5px;
+  margin-top: -5px;
+}
+.marker--br{ 
+  background: blue;
+  margin-right: -5px;
+  margin-bottom: -5px;
+}
+.marker--bl{ 
+  background: purple;
+  margin-left: -5px;
+  margin-bottom: -5px;
+}
+
+
+.test-form{
+  position: fixed;
+  background-color: rgba(0,0,0,.5);
+  bottom: 0;  
+  left: 0;  
+  right: 0; 
+  padding: 5px; 
+  display: table-row;
+}
+
+.test-form input{
+  background: rgba(255,255,255,.8);
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  display: table-cell;
+}
+
+.test-form button{
+  display: table-cell;
+  background: rgba(0,0,0,.8);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 1em;
+}

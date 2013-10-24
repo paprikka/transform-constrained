@@ -1,0 +1,18 @@
+{
+  "author": "Rafal Pastuszak <rafal@paprikka.pl>",
+  "name": "sketches",
+  "description": "Simplest possible Grunt config template",
+  "version": "0.0.1",
+  "engine": "node -0.9.11",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start": "grunt"
+  },
+  "devDependencies": {
+    "grunt":                      "~0.4.1",
+    "grunt-contrib-connect":      "~0.3.0",
+    "grunt-contrib-livereload":   "~0.1.2",
+    "grunt-contrib-watch":        "~0.4.4"
+  }
+}
